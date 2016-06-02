@@ -8,25 +8,38 @@ body{
 }
 #title{
 	font-size:3em;
-	width:100%;
+}
+nav{
+	background-color:#0D0D0D;
+	text-decoration:none;
+	font-size:3em;  
+}
+a{
+	text-decoration:none;
+	color:white;
 }
 
-img{
-	width:32em;
-	height:18em;
-
-}
-
-#intro
-{
+#intro{
 	font-size:2em;
-	display:inline-block;
-	height:25em;
-	overflow:hidden;
 }
-
+#about{
+	font-size:1em;
+}
+img{
+	width:48%;
+	height:27%;
+}
+div>.list{
+	font-size:2em;
+	display:inline-block; 
+	padding:15px; 
+}
 p{
 	font-size:2em;
+}
+#footer{
+	position:absolute;
+	bottom:0px; 
 }
 #rainbow{
 	font-size:5em;
@@ -37,6 +50,5 @@ p{
 }
 @keyframes rainbow{
 	from{color:blue;}
-	to{color:green;}
-
+	to{color:red;}
 }
