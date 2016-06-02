@@ -1,23 +1,42 @@
 body{
 	text-align:center;
-	color:red;
+	align-items:center;
+	color:white;
 	font-family:Josefin Sans; 
 	background:black;
 	font-size:75%;
 }
 #title{
 	font-size:3em;
+	width:100%;
 }
+
 img{
-	width:32%;
-	height:18%;
-	align:middle;
+	width:32em;
+	height:18em;
+
 }
-p{
-	font-size:2em;
-}
+
 #intro
 {
 	font-size:2em;
-	background-color:black;
+	display:inline-block;
+	height:25em;
+	overflow:hidden;
+}
+
+p{
+	font-size:2em;
+}
+#rainbow{
+	font-size:5em;
+}
+#rainbow:hover{ 
+	-webkit-animation:rainbow 3s infinite alternate;
+	-animation:raibow 2s infinite alternate;
+}
+@keyframes rainbow{
+	from{color:blue;}
+	to{color:green;}
+
 }
