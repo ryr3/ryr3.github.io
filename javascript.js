@@ -1,14 +1,10 @@
-var i=0;
+var i=1;
 function type() {
     var name = "Yashhwanth Ram";
-    var shown=name.slice(0, ++i);
+    var shown=name.slice(0,i++);
     document.getElementById('title').innerHTML=shown;
     if (shown==name)
         return;
-    setTimeout(type, 100);
+    setTimeout(type, 300);
 };
 type();
-
-function fadeIn(){
-    document.getElementById("para").style.opacity+=0.1;
-}

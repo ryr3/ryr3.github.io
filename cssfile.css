@@ -8,6 +8,8 @@ body{
 }
 #title{
 	font-size:3em;
+	-webkit-animation:fadein 3s;
+	-animation:fadein 3s;
 }
 nav{
 	background-color:#0D0D0D;
@@ -18,7 +20,9 @@ a{
 	text-decoration:none;
 	color:white;
 }
-
+hr{
+	border-color:teal;
+}
 #intro{
 	font-size:2em;
 }
@@ -34,15 +38,17 @@ div>.list{
 	display:inline-block; 
 	padding:15px; 
 }
+
 p{
 	font-size:2em;
 }
 #footer{
 	position:absolute;
-	bottom:0px; 
+	bottom:0px;
+	background-color:red; 
 }
 #rainbow{
-	font-size:5em;
+	font-size:3em;
 }
 #rainbow:hover{ 
 	-webkit-animation:rainbow 3s infinite alternate;
@@ -51,4 +57,8 @@ p{
 @keyframes rainbow{
 	from{color:blue;}
 	to{color:red;}
+}
+@keyframes fadein{
+	from{opacity:0;}
+	to{opacity:1;}
 }
