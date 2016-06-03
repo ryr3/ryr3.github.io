@@ -50,13 +50,11 @@ p{
 #rainbow{
 	font-size:3em;
 }
-#logos{
-	animation:logorotate 4s;
-}
 #rainbow:hover{ 
 	-webkit-animation:rainbow 3s infinite alternate;
 	-animation:raibow 2s infinite alternate;
 }
+
 @keyframes rainbow{
 	from{color:blue;}
 	to{color:red;}
