@@ -24,7 +24,7 @@ hr{
 	border-color:teal;
 }
 #intro{
-	font-size:2em;
+	font-size:2em; 
 }
 #about{
 	font-size:1em;
@@ -50,6 +50,9 @@ p{
 #rainbow{
 	font-size:3em;
 }
+#logos{
+	animation:logorotate 4s;
+}
 #rainbow:hover{ 
 	-webkit-animation:rainbow 3s infinite alternate;
 	-animation:raibow 2s infinite alternate;
@@ -61,4 +64,8 @@ p{
 @keyframes fadein{
 	from{opacity:0;}
 	to{opacity:1;}
+}
+@keyframes logorotate{
+	from{transform:rotate(0deg); }
+	to{transform:rotate(360deg); }
 }
